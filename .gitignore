@@ -9,3 +9,4 @@ access.txt
 yarn.lock
 .env
 package-lock.json
+Anchor.toml

@@ -11,8 +11,8 @@ subscription_contract = "BvuGGNocQNB8ybd6mYjy9HScPc3hf2bUWnQjVzbmDRCF"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "https://api.testnet.solana.com"
-wallet = "~/my-keypair.json"
+cluster = "https://devnet.helius-rpc.com/?api-key=4c8f7f5c-1eab-46aa-bc66-22d413948a5e"
+wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
